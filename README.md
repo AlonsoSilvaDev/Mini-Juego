@@ -28,12 +28,16 @@ Cada juego es independiente y se ejecuta por separado. No requiere librerías ex
 
 ## Cómo ejecutarlos
 
+Los juegos están en la carpeta `Mini juegos`. Desde la raíz del repositorio, ejecuta el que quieras:
+
 ```bash
-python 1_adivina_el_numero.py
-python 2_piedra_papel_tijera.py
-python 3_ahorcado.py
-python 4_dados_a_50.py
+python "Mini juegos/adivina el numero.py"
+python "Mini juegos/piedra_papel_tijera.py"
+python "Mini juegos/ahorcado.py"
+python "Mini juegos/dados_a_50.py"
 ```
+
+Las comillas son necesarias porque el nombre de la carpeta y del primer archivo tienen espacios.
 
 ## Próximas mejoras
 
